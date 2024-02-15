@@ -3,3 +3,47 @@ body {
   height: 100%;
   margin: 0;
 }
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f0f0f0
+}
+figcaption {
+  font-size: 14px; /* Set the font size to 14 pixels */
+  text-align: center; /* Center align the text */
+}
+#featured-property {
+  text-align: center; /* Center align the content */
+}
+
+/* Style for the paragraph elements within the featured property */
+#featured-property p {
+  width: 800px; /* Set hard width to 800px */
+  margin: 20px auto; /* Add some vertical space and center the paragraphs */
+}
+#details {
+  overflow: hidden; /* Clear floats */
+}
+#details div {
+  float: left; /* Float each div to the left */
+  margin-right: 20px; /* Add some spacing between divs */
+}
+#details {
+  display: flex; /* Use flexbox to arrange the divs */
+  justify-content: space-between; /* Distribute space evenly between divs */
+  background-color: #f0f0f0; /* Set background color for the bottom section */
+  padding: 20px; /* Add some padding */
+}
+
+/* Style for each div within the bottom section */
+#details div {
+  width: 25%; /* Each div occupies 25% of the width */
+  text-align: center; /* Center align text */
+  background-color: #ccc; /* Set background color for the divs */
+}
